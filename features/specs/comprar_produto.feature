@@ -1,6 +1,6 @@
 #language:pt
 
-@compra_produtos_diferentes
+@comprar_produtos_diferentes
 Funcionalidade: Compra de produtos diferentes
   Sendo um usuario
   Quero realizar a compra de produtos diferentes
