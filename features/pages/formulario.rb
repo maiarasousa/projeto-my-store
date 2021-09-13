@@ -23,7 +23,5 @@ class Formulario < SitePrism::Page
   def salvar_cadastro
     finalizar_cadastro.click
   end
-  
 
-  
 end
