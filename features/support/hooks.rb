@@ -3,4 +3,5 @@ Before do
     @submenu = Submenu.new
     @formulario = Formulario.new
     @produtos = Produtos.new
+    @login = Login.new
 end
