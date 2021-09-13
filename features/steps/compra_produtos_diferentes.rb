@@ -17,6 +17,4 @@ Dado('que faço uma pesquisa do primeiro {string}') do |produto_um|
   
   Então('finalizo minha compra com sucesso') do
     @produtos.finalizar_pedido
-
-    sleep 3
   end

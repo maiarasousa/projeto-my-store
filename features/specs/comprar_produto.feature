@@ -6,14 +6,14 @@ Funcionalidade: Compra de produtos diferentes
   Quero realizar a compra de produtos diferentes
 
   Contexto: Estar na página inicial
-    * que acesso a pagina incial
+    * que acesso a pagina inicial
 
   @maiara_sousa
   Esquema do Cenario: Realizar compra de produtos diferentes
     Dado que faço uma pesquisa do primeiro "<produto_um>"
-      E escolho o primeiro item da lista de resultados
+    E escolho o primeiro item da lista de resultados
     Quando confirmo a adicao do "<produto_um>" para o carrinho
-      E escolho outro "<produto_dois>" para o carrinho
+    E escolho outro "<produto_dois>" para o carrinho
     Então finalizo minha compra com sucesso
 
     Exemplos:
