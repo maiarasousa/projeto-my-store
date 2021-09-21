@@ -1,8 +1,7 @@
-class Produtos < SitePrism::Page
+class Carrinho < SitePrism::Page
     include Capybara::DSL
   
-    element :caixa_pesquisa, :xpath, "//*[@id='search_widget']/form/input[2]"
-    element :botao_pesquisar, :xpath, "//*[@id='search_widget']/form/button/i"
+
     element :imagem_produto, :xpath, "//*[@id='js-product-list']/div[1]/article[1]/div/a/img"
     element :caixa_customizacao, :xpath, "//*[@id='main']/div[1]/div[2]/div[2]/section/div/form/ul/li/textarea"
     element :botao_salvar_customizacao, :xpath, "//*[@id='main']/div[1]/div[2]/div[2]/section/div/form/div/button" 
@@ -22,11 +21,6 @@ class Produtos < SitePrism::Page
     element :confirmar_pagamento, :xpath, "//*[@id='payment-confirmation']/div[1]/button"
     
 
-
-    def pesquisa_produto(produto)
-      caixa_pesquisa.set produto
-      botao_pesquisar.click
-    end
 
     def adicionar_produto_um
       imagem_produto.click

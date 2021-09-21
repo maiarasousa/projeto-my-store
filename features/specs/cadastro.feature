@@ -6,7 +6,7 @@ Funcionalidade: Cadastro de usuario
 	Quero realizar o meu cadastro
 
 	Contexto: Estar na página inicial
-		* que acesso a pagina incial
+		* que acesso a pagina inicial
 
 	@maiara_sousa
 	@fazer_cadastro
