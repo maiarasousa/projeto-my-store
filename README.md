@@ -16,7 +16,7 @@
 <p align="left"> Para utilizar esse projeto, é imprescindível que você clone o projeto <b>projeto-my-store</b>. Com a seguinte estrutura : </p>
 
 <ul>
-  <li>desafio-automacao-web</li>
+  <li>projeto-my-store</li>
   <li>features</li>
   <li>.gitignore</li>
   <li>Gemfile</li>
