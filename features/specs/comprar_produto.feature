@@ -9,6 +9,7 @@ Funcionalidade: Compra de produtos diferentes
     * que acesso a pagina inicial
 
   @maiara_sousa
+  @realizar_compra_produtos_diferentes
   Esquema do Cenario: Realizar compra de produtos diferentes
     Dado que faço uma pesquisa do primeiro "<produto_um>"
     E escolho o primeiro item da lista de resultados
