@@ -1,6 +1,6 @@
 # Projeto de Automação Web 
 
-<p align="left"> Projeto desenvolvido durante mentoria, que tem como objetivo realizar testes E2E</p>
+<p align="left"> Projeto desenvolvido durante mentoria, tem como objetivo realizar testes E2E</p>
 
 <h2>Técnologias Utilizadas</h2>
 <ul>
